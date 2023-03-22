@@ -1,0 +1,41 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #031834;
+}
+
+.root {
+    
+    font-family: 'Manrope', sans-serif;
+
+    --color-bg:#040C18;
+    --coolor-footor: #031834;
+    --color-blog: #042c54;
+    --color-text: #81AFDD;
+    --colo-subtext: #ff8a71;
+
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+.Service_bar{
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.service_bar_section{
+    color: #fff;
+    font-size: xx-large;
+    font-weight:bold;
+    word-spacing: 2px;
+}
+
