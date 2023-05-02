@@ -71,18 +71,12 @@
 } */
 
 .gpt_button{
- color: #fff;
-    left: 1153px;
-    top: 55px;
-    background-color: orangered;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    font-weight: 600;
+    margin-left: 18px;
+    padding: 6px;
+    width: 13vh;
     font-size: 16px;
-    line-height: 25px;
-    outline: none;
-    margin-left: 1rem;
-    
+    font-weight: 500;
+    background-color: orangered;
 }
 .gpt_button:hover{
     background-color:#fff;
@@ -90,18 +84,13 @@
     border-color:  orangered;
 }
 .npt_button{
-    color:orangered;
-       left: 1000px;
-       top: 55px;
-       background-color: #fff;
-       border-radius: 5px;
-       padding: 0.5rem 1rem;
-       font-weight: 600;
-       font-size: 16px;
-       line-height: 25px;
-       outline: none;
-       border-color:  orangered;
-       margin-left: 1rem;
+    margin-left: 18px;
+    padding: 6px;
+    width: 13vh;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: orangered;
    }
    .npt_button:hover{
     background-color: orangered;

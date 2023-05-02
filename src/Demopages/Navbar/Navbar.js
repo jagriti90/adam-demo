@@ -17,9 +17,9 @@ const Navbar = () => {
 
                     </div>
                 </div>
-                <div className='gpt__navbar-sign'>
-                    <button className='npt_button' type='button' ><NavLink to='/signin'>Sign in</NavLink></button>
-                    <button className='gpt_button' type='button'><NavLink to='/signin'>Sign up</NavLink></button>
+                <div className='gpt__navbar-sign gap-3 '>
+                    <button className='npt_button' type='button' ><NavLink to='/login'>Login</NavLink></button>
+                    <button className='gpt_button' type='button'><NavLink to='/signup'>Sign up</NavLink></button>
                 </div>
 
                 <div className='gpt__navbar-menu'>

@@ -1,0 +1,11 @@
+.main_section{
+    display: flex;
+    gap: 2rem;
+}
+label{
+color: gray;
+}
+input{
+  border: 1rem wheat;  
+  color: black;
+}

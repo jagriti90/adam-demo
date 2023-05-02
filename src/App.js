@@ -7,7 +7,8 @@ import Contact from './mianpages/Contact';
 import About from './mianpages/About';
 import Service from './mianpages/Service';
 import Navbar from './Demopages/Navbar/Navbar';
-import Signin from './Demopages/Login/Signin';
+import Signup from './components/Signup';
+import Login from './components/Login';
 // import Switch from "react-switch";
 
 // import Redirect from '.react-router-redirector';
@@ -16,6 +17,7 @@ import {
   Route,
   Routes
 } from 'react-router-dom';
+
 
 const App = () => {
   return (
@@ -28,7 +30,8 @@ const App = () => {
     <Route exact path='/contact' element = { <Contact /> } />
     <Route exact path='/about' element = { <About /> } />
     <Route exact path='/service' element = { <Service /> } />
-    <Route exact path='/signin' element = { <Signin /> } />
+    <Route exact path='/signup' element = { <Signup /> } />
+    <Route exact path='/login' element = { <Login /> } />
     {/* <Route path='/' component = { Home } /> */}
     {/* <Redirect to='/' /> */}
     </Routes>
