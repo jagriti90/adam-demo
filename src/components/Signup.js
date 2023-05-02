@@ -4,6 +4,7 @@ import { NavLink , useNavigate } from 'react-router-dom'
 import {createUserWithEmailAndPassword , updateProfile } from "firebase/auth";
 import {auth} from '../components/firebase';
 // import { AiFillFileImage } from "react-icons/ai";
+import './Signup.css'
 
 
 const Signup = () => {
@@ -63,9 +64,9 @@ const handleSubmission =()=>{
 
   return (
     <>
-    <section className='bg-sky-200 h-full max-w-[1280px] min-h-screen justify-center items-center flex font-serif' >
-        <div className=' min-w-[400px]  h-fit w-fit bg-white  shadow-sm rounded-lg p-12'>
-            <h1 className='text-sky-400 text-xl  font-serif font-semibold text-center p-6'>Login</h1>
+    <section className='main_bar' >
+        <div className=' mind_bar '>
+            <h1 className='hertx_bar'>Sign up</h1>
             <Inputcontrol 
             placeholder='Enter your name '
             onChange={(event)=>
@@ -90,15 +91,15 @@ const handleSubmission =()=>{
             
 
 
-            <div className='gap-3'>
-                    <div className='p-2 items-center text-center'>
-                    <b className='font-bold text-red-500 text-sm'>{errorMsg}</b>
+            <div className='main_footar'>
+                    <div className='sec_foo'>
+                    <b>{errorMsg}</b>
                     </div>
-                <button onClick={handleSubmission}  disabled={subimitButtonDisabled} className=' mainbt bg-sky-400 p-3 w-[60vh] mt-4 text-white font-semibold'>Signup</button>
-                <p className='text-black font-semibold pt-6'>
+                <button onClick={handleSubmission}  disabled={subimitButtonDisabled} className=' mainbt'>Signup</button>
+                <p>
                     Already you have an account? {" "}
                 
-                <span className='text-sky-400'>
+                <span>
                     <NavLink id='' to='/login'>Login</NavLink>
                 </span>
                 </p>

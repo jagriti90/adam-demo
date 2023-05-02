@@ -1,11 +1,25 @@
 .main_section{
     display: flex;
-    gap: 2rem;
+    gap: 6rem;
+
 }
 label{
 color: gray;
+background-color: gray;
+margin-top: 2vh;
 }
 input{
   border: 1rem wheat;  
   color: black;
+  padding: 15px 70px 10px;
+  border: 1vh black;
+  border: black;
+  margin-top: 3vh;
+
 }
+
+/* .out_bar{
+  border-bottom: 2rem blue;
+  outline: none;
+  border: white;
+} */

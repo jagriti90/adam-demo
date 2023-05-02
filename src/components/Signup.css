@@ -1,0 +1,62 @@
+.main_bar{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 1280px;
+    min-height: 100vh;
+}
+.mind_bar{
+    min-width: 400px;
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 8px;
+    border-radius: 0.5rem;
+    padding: 5px 50px 80px;
+    height: 60vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.hertx_bar{
+    color: rgb(17, 17, 36);
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 1.5vh;
+}
+
+.main_footar{
+    gap:8vh;
+}
+.sec_foo{
+    align-items: center;
+    text-align: center;
+    padding: 4vh;
+}
+
+b{
+    font-weight: bold;
+    color: red;
+    font-size:large;
+}
+
+.mainbt{
+    font-size: large;
+    width: 50vh;
+    background-color: #031834;
+    color: white;
+    padding: 1vh;
+    font: bold;
+}
+p{
+    color: black;
+    font: bold;
+    margin-top: 2vh;
+}
+
+span{
+    color: #031834;
+    font: bolder;
+    font-weight: bold;
+}
