@@ -3,12 +3,12 @@
     gap: 6rem;
 
 }
-label{
+.label{
 color: gray;
 background-color: gray;
 margin-top: 2vh;
 }
-input{
+.input{
   border: 1rem wheat;  
   color: black;
   padding: 15px 70px 10px;
